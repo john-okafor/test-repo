@@ -1,0 +1,106 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 480px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background: black;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.iner-container{
+    background-color: #F8F8FF;
+}
+#expense-form{
+    background-color: white;
+    margin:0 5rem 0 5rem;
+    padding-top: 1rem;
+    border: 2px solid white;
+}
+h1, h2 {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+form input, form button {
+    padding: 0.6rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#expense-list {
+    list-style: none;
+    padding: 0;
+}
+
+#expense-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.filter-group {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    background-color: black;
+    color: white;
+}
+.foot {
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.expense-display{
+    border: 2px solid #F8F8FF;
+}
+#name-label,#amount-label,#date-label,#expense-label{
+    font-weight: bolder;
+}
+@media screen and (max-width:430px) {
+    .filter-group{
+        font-size:12px;
+    }
+}
+@media screen and (max-width:430px) {
+    .filter-group h2{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:430px) {
+    .filter-group input{
+        width:20px;
+    }
+
+    
+} 
+    
+
+
